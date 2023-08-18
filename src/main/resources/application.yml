@@ -7,8 +7,8 @@ spring:
           enabled: true
 
 aws:
-  accesskey: AKIARQATRUO7DF73KJLF
-  secretkey: 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
+  accesskey: {access_key}
+  secretkey: {secret_key}
   region: us-east-1
 #  dynamodb:
 #    endpoint: http://localhost:4566
