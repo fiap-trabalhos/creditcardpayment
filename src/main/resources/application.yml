@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    function:
+      definition: sales
+      web:
+        export:
+          enabled: true
+
+aws:
+  accesskey: AKIARQATRUO7DF73KJLF
+  secretkey: 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
+  region: us-east-1
+#  dynamodb:
+#    endpoint: http://localhost:4566
+
+cielo:
+  merchant-id: "a3e0d83d-0f2f-47a1-86e7-50918e9f13a2"
+  merchant-key: "YHLCOJOODWZEPRIQEVVULZNDLPNSUQVPBJPLHPLC"
+  sale:
+    url: "https://apisandbox.cieloecommerce.cielo.com.br"
